@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configuración base del cliente HTTP
 const ClientHttp = axios.create({
-  baseURL: 'http://localhost:5001/api',
+  baseURL: 'http://localhost:5076/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
